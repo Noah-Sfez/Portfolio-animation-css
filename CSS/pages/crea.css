@@ -1,0 +1,45 @@
+.crea-card{
+    background-color: rgb(204, 204, 170);
+    width: 600px;
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.crea{
+    margin-left: 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.img-crea{
+    margin-left: 1%;
+}
+.rendu-figma{
+    width: 200px;
+}
+
+@media screen and (max-width: 800px){
+    .crea{
+        margin-left: 10px;
+    }
+
+    .crea-card{
+        width: 200px;
+        font-weight: bold;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .rendu-figma{
+        height: 100px;
+        width: 50px;
+        margin-left: 50px;
+    }
+
+
+
+
+
+
+}

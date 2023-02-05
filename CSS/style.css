@@ -1,0 +1,59 @@
+@import url(composants/header.css);
+@import url(composants/espace.css);
+@import url(composants/avatar.css);
+@import url(composants/buttons.css);
+@import url(composants/carte.css);
+@import url(composants/footer.css);
+@import url(composants/nav-bar.css);
+@import url(composants/present.css);
+
+@import url(pages/page1.css);
+@import url(pages/page2.css);
+@import url(pages/crea.css);
+@import url(pages/coding.css);
+@import url(pages/3D.css);
+@import url(pages/marketing.css);
+@import url(pages/JV.css);
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+}
+@media screen and (max-width: 800px){
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    .cardsgrid{
+        margin-left: 9px;
+    }
+    .rendu-carre{
+    width: 90px;
+    height: 90px;
+    border-radius: 13px;
+    }
+    .rendu-rec{
+    width: 140px;
+    height: 80px;
+    }
+    .page2 {
+    background-color: rgb(192, 155, 227);
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    position: absolute;
+    left: 9px;
+    bottom: 8px;
+    font-size: x-small;
+    }
+    video{
+        width: 200px;
+    }
+
+}

@@ -1,0 +1,54 @@
+.game-art{
+    background-color: rgb(173, 173, 252);
+    width: 45%;
+    border-radius: 6px;
+}
+
+
+.txt-art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    line-height: 1.5;
+    margin-left: 1%;
+}
+.decor-art{
+    border-radius: 6px;
+    box-shadow: 8px 8px 8px #000000;
+}
+.demo-jeu{
+    border-radius: 6px;
+    box-shadow: 8px 8px 8px #000000;
+}
+.game{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 800px){
+    .game-art{
+        height: 260px;
+        padding: 1%;
+    }
+    .decor-art{
+        width: 150px;
+        margin-bottom: 2%;
+    }
+    .demo-jeu{
+        width: 150px;
+        height: 90px;
+        margin-bottom: 2%;
+    }
+    .txt-art{
+        font-weight: bold;
+    }
+    
+
+
+
+
+
+}

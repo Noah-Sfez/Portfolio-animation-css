@@ -1,0 +1,55 @@
+footer{
+    background-color:rgba(145, 145, 246, 0.326);
+    padding: 50px 0;
+    margin-top: 20px;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.insta{
+    width: 80px;
+    transition: 1s;
+}
+.insta:hover{
+    width: 100px;
+}
+.linkedin{
+    width: 80px;
+    transition: 1s;
+}
+.linkedin:hover{
+    width: 100px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.réseaux{
+    font-size: xx-large;
+}
+@media screen and (max-width: 800px){
+    footer{
+    background-color: rgb(198, 171, 239);
+    padding: 10px 0;
+    margin-top: 5px;
+    }
+    .réseaux{
+    font-size: unset;
+    }
+    .linkedin {
+        width: 52px;
+        transition: 1s;
+    }
+    .insta{
+    width: 52px;
+    transition: 1s;
+    }
+
+
+
+
+
+}

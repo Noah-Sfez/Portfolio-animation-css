@@ -1,0 +1,86 @@
+
+.header{
+    background-image: url(../../images/image\ programmation.jpg);
+    height: 500px;
+    position: relative;
+    background-size: cover;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.amazon{
+    text-decoration: none;
+}
+.title{
+    padding: 15%;
+    font-size: xxx-large;
+}
+.tel-accueil{
+    display: none;
+}
+.accueil{
+    background-color: rgb(155, 216, 227);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    position:absolute;
+    font-size: x-large;
+    animation: slide 5s linear 1s infinite alternate;
+}
+.accueil:hover{
+    background-color: rgb(46, 175, 239);
+}
+@keyframes slide{
+    0%{
+    left: 75px;
+    bottom: 400px;
+    }
+    100%{
+    left: 1375px;
+    bottom: 400px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header{
+        background-image: url(../../images/image\ programmation.jpg);
+        height: 100px;
+        width: 100%;
+        position: relative;
+        object-fit: cover;
+    }
+    .header h1{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    .accueil{
+        display: none;
+    }
+    .tel-accueil{
+        display: block;
+        position: absolute;
+        top: 1%;
+        margin-left: 2%;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(92, 92, 233, 0.523);
+        border-radius: 20px;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        margin-top: 1%;
+    }
+    
+}
+

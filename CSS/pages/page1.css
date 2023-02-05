@@ -1,0 +1,96 @@
+.presentation{
+    background-image: url(../../images/arriere\ plan\ sombre.jpg);
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    position: relative;
+}
+.project{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.avatar.img-cv.present{
+    position: absolute;
+    left: 1430px;
+    top: -29px;
+}
+.cartes1{
+    position: relative;
+}
+.cartes2{
+    position: relative;
+}
+.affiche{
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    background-color: rgb(180, 190, 247);
+    border-radius: 30px;
+}
+.page2 {
+    background-color: rgb(192, 155, 227);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    left: 53px;
+    bottom: 12px;
+}   /* bouton pour les autres projets*/
+.rendu{
+    width: 500px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .avatar.img-cv.present{
+        position: absolute;
+        left: 268px;
+        top: 51px;
+    }
+    .project{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .avatar.img-cv {
+        position: absolute;
+        left: 173px;
+        bottom: -16px;
+    }
+    .affiche {
+        margin-bottom: 30px;
+        padding: 19px;
+        width: 100%;
+        height: 159px;
+        display: flex;
+        border-radius: 30px;
+    }
+    .rendu {
+        width: 275px;
+        height: 119px;
+        border-radius: 20px;
+    }
+    .presentation{
+        background-image: url(../../images/arriere\ plan\ sombre.jpg);
+        padding: 24px;
+        margin-top: 30px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-size: x-large;
+        position: relative;
+        width: 100%;
+    }
+    .affiche.texte{
+        height: 30px;
+    }
+}

@@ -1,0 +1,61 @@
+
+.affiche.texte{
+    padding: 20px;
+    width: 220px;
+    flex-direction: column;
+    font-size: medium;
+}
+.avatar.img-cv{
+    position: absolute;
+    left: 450px;
+    bottom: -12px;
+}
+
+.rendu-carre{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+.rendu-carre:hover{
+    width: 200px;
+    height: 200px;
+}
+.txt-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.rendu-rec{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+.rendu-rec:hover{
+    width: 330px;
+    height: 200px;
+}
+
+
+@media screen and (max-width: 800px){
+    .rendu.carre{
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    transition: 1.5;
+    }
+    .rendu-carre:hover{
+        width: 130px;
+        height: 130px;
+    }
+    .rendu-rec{
+        width: 140px;
+        height: 80px;
+        transition: 1.5;
+    }
+    .rendu-rec:hover{
+        width: 160px;
+        height: 100px;
+    }
+}

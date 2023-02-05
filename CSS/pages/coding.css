@@ -1,0 +1,68 @@
+.aeklys-img{
+    width: 45%;
+    box-shadow: 8px 8px 8px #000000;
+}
+.portfolio-img{
+    width: 45%;
+    box-shadow: 8px 8px 8px #000000;
+}
+.semaine1{
+    background-color: rgb(223, 222, 222);
+    display: flex;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.txt1{
+    font-size: x-large;
+    line-height: 1.5;
+}
+.txt-code2{
+    margin-left: 1%;
+}
+.button-aeklys{
+    background-color: aliceblue;
+    color: black;
+    padding: 2%;
+    font-size: large;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-top: 20%;
+    transition: 1s;
+}
+.button-aeklys:hover{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 800px){
+    .aeklys-img{
+        width: 200px;
+        height: 120px;
+        margin: auto;
+
+    }
+    .txt1{
+        font-size: small;
+        margin-right: 8px;
+    }
+    .button-aeklys{
+        font-size: small;
+       
+    }
+    .portfolio-img{
+        width: 200px;
+        height: 120px;
+        margin: auto;
+
+    }
+    .txt-code2{
+        font-size: small;
+        margin-left: 18px;
+    }
+
+
+
+
+
+
+}

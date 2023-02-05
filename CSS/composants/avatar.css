@@ -1,0 +1,36 @@
+.avatar.img-cv{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid  black;
+    transition: 2s;
+}
+.avatar.img-cv:hover{
+    width: 130px;
+    height: 130px;
+}
+.avatar{
+    margin: 30px;
+}
+
+@media screen and (max-width: 800px){
+    .avatar.img-cv{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border: 1px solid  black;
+        transition: 2s;
+    }
+    .avatar.img-cv:hover{
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+
+
+
+}
